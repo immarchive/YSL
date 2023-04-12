@@ -69,8 +69,8 @@ $(function(){
 
     // 사람 사각 슬라이드
     const peopleSlide = new Swiper(".people-slide", {
-        slidesPerView:'auto',  //auto로 주면 css에서 크기를 내맘대로 정할 수 있다. (auto는 위드100%가 되니 수동설정 ㄱ), 시작과 끝은 swiper한테 패딩 0 20px 이런식으로 주면 떨어짐
-        spaceBetween: 24,  //css에서 margin-left 같은거 주면 안되고 여기서 줘야 함. 왜냐, css에서 주면 내 뜻대로 잘 안될 것이다
+        slidesPerView:'auto',
+        spaceBetween: 24,
         loop : true,
         autoplay: {
             delay: 3000,
@@ -227,4 +227,4 @@ $(function(){
 
 
 
-}) //지우지말기
+}) //삭제금지
