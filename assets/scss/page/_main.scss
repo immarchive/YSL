@@ -725,7 +725,7 @@ h2{
     .group-question{
         border-top: 1px solid #d9d9d9;
         border-width: 1px 0px; 
-        padding: 60px 40px;
+        padding: 60px 20px;
 
         @include desktop{
             padding: 45px 0;
@@ -741,12 +741,7 @@ h2{
 
         .title-area{
             position: relative;
-            margin: 0 130px;
-
-            @include desktop{
-                padding: 0 20px;
-                margin: 0 20px;
-            }
+            padding: 0 40px;
 
             .title{
                 font-size: 34px;
